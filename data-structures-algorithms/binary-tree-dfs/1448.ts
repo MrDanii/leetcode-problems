@@ -39,11 +39,11 @@ function countGoodNodes(curNode: TreeNode | null, prevVal: number): number {
 // Input: root = [3,1,4,3,null,1,5]
 // Output: 4
 
-let treeNode1 = new TreeNode(3)
-treeNode1.left = new TreeNode(1)
-treeNode1.right = new TreeNode(4)
-treeNode1.left.left = new TreeNode(3)
-treeNode1.right.left = new TreeNode(1)
-treeNode1.right.right = new TreeNode(5)
+// let treeNode1 = new TreeNode(3)
+// treeNode1.left = new TreeNode(1)
+// treeNode1.right = new TreeNode(4)
+// treeNode1.left.left = new TreeNode(3)
+// treeNode1.right.left = new TreeNode(1)
+// treeNode1.right.right = new TreeNode(5)
 
-console.log(goodNodes(treeNode1));
+// console.log(goodNodes(treeNode1));

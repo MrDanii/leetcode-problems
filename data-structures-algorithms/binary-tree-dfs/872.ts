@@ -42,30 +42,30 @@ function getLeaves(root: TreeNode | null, arr: number[]) {
   getLeaves(root.right, arr)
 }
 
-const treeNode1: TreeNode | null = new TreeNode(3)
-treeNode1.left = new TreeNode(5)
-treeNode1.right = new TreeNode(1)
-treeNode1.left.left = new TreeNode(6)
-treeNode1.left.right = new TreeNode(2)
-treeNode1.left.right.left = new TreeNode(7)
-treeNode1.left.right.right = new TreeNode(4)
-treeNode1.right.left = new TreeNode(9)
-treeNode1.right.right = new TreeNode(8)
+// const treeNode1: TreeNode | null = new TreeNode(3)
+// treeNode1.left = new TreeNode(5)
+// treeNode1.right = new TreeNode(1)
+// treeNode1.left.left = new TreeNode(6)
+// treeNode1.left.right = new TreeNode(2)
+// treeNode1.left.right.left = new TreeNode(7)
+// treeNode1.left.right.right = new TreeNode(4)
+// treeNode1.right.left = new TreeNode(9)
+// treeNode1.right.right = new TreeNode(8)
 
-// const auxArr1: number[] = []
-// // console.log(getLeaves(treeNode1, auxArr1));
-// // console.log(auxArr1);
+// // const auxArr1: number[] = []
+// // // console.log(getLeaves(treeNode1, auxArr1));
+// // // console.log(auxArr1);
 
-const treeNode2: TreeNode | null = new TreeNode(3)
-treeNode2.left = new TreeNode(5)
-treeNode2.right = new TreeNode(1)
-treeNode2.left.left = new TreeNode(6)
-treeNode2.left.right = new TreeNode(7)
-treeNode2.right.left = new TreeNode(4)
-treeNode2.right.right = new TreeNode(2)
-treeNode2.right.right.left = new TreeNode(9)
-treeNode2.right.right.right = new TreeNode(8)
+// const treeNode2: TreeNode | null = new TreeNode(3)
+// treeNode2.left = new TreeNode(5)
+// treeNode2.right = new TreeNode(1)
+// treeNode2.left.left = new TreeNode(6)
+// treeNode2.left.right = new TreeNode(7)
+// treeNode2.right.left = new TreeNode(4)
+// treeNode2.right.right = new TreeNode(2)
+// treeNode2.right.right.left = new TreeNode(9)
+// treeNode2.right.right.right = new TreeNode(8)
 
-// console.log(treeNode2);
+// // console.log(treeNode2);
 
-console.log(leafSimilar(treeNode1, treeNode2));
+// console.log(leafSimilar(treeNode1, treeNode2));

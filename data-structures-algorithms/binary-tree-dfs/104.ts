@@ -27,13 +27,13 @@ function maxDepth(root: TreeNode | null): number {
 //   9      20
 //       15   7
 
-const treeNode5: TreeNode | null = new TreeNode(7, null, null)
-const treeNode4: TreeNode | null = new TreeNode(15, null, null)
-const treeNode3: TreeNode | null = new TreeNode(20, treeNode4, treeNode5)
-const treeNode2: TreeNode | null = new TreeNode(9, null, null)
-const treeNode1: TreeNode | null = new TreeNode(3, treeNode2, treeNode3)
+// const treeNode5: TreeNode | null = new TreeNode(7, null, null)
+// const treeNode4: TreeNode | null = new TreeNode(15, null, null)
+// const treeNode3: TreeNode | null = new TreeNode(20, treeNode4, treeNode5)
+// const treeNode2: TreeNode | null = new TreeNode(9, null, null)
+// const treeNode1: TreeNode | null = new TreeNode(3, treeNode2, treeNode3)
 
-console.log(maxDepth(treeNode1));
+// console.log(maxDepth(treeNode1));
 
 // Example #2:
         //       0
