@@ -3,7 +3,7 @@ function canVisitAllRooms(rooms: number[][]): boolean {
   let tempKeys = new Set(rooms[0])  // removing duplicates in room "0"
   // add new key, except key for room "0" because we already opened that room
   let newKeys: number[] = Array.from(tempKeys).filter((value) => value != 0)
-  //!! Note: dont use spread operator in typescript with maps and arrays, this leads to unexpected behavior
+  //!! Note: dont use spread operator in typescript with sets and arrays, this leads to unexpected behavior
   //!! thats why I used Array.from() method
   //https://github.com/Microsoft/TypeScript/issues/8856
   // Example: [...(new Set(room[0]))] returns --> an empty array
