@@ -3,6 +3,7 @@ public class BinarySearch {
     BinarySearchTemplate bs = new BinarySearchTemplate();
     int[] arr = {1,2,5,6,8,8,9,10,15};
     System.out.println(bs.binarySearchTemp1(arr, 9));
+    System.out.println(bs.binarySearchTemp2(arr, 9));
   }
 }
 
@@ -24,5 +25,21 @@ class BinarySearchTemplate {
       if (nums[mid] > target) right = mid - 1;
     }
     return - 1;
+  }
+
+  int binarySearchTemp2 (int[] nums, int target) {
+    if (nums.length == 0) return - 1;
+    int left = 0, right = nums.length - 1;
+
+    while (left < right) {
+      int mid = left + ((right - left + 1) / 2);
+
+      if (nums[mid] == target) { return mid; }
+      else if (nums[mid] < target) { left = mid + 1; }
+      else { right = mid; }
+    }
+
+    if (nums[left] == target) return left;
+    return right;
   }
 }
