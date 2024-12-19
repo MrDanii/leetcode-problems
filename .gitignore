@@ -1,6 +1,10 @@
+# Folders
 agile-engine/
 baires/
 package-lock.json
 package.json
 node_modules/
 ibm-tests/
+
+# Files
+test.ts
